@@ -1,0 +1,25 @@
+﻿    The following Entity Framework Core commands are available.
+
+        Cmdlet                      Description
+        --------------------------  ---------------------------------------------------
+        Add-Migration               Adds a new migration.
+
+        Drop-Database               Drops the database.
+
+        Get-DbContext               Lists and gets information about available DbContext types.
+
+        Get-Migration               Lists available migrations.
+
+        Remove-Migration            Removes the last migration.
+
+        Scaffold-DbContext          Scaffolds a DbContext and entity types for a database.
+
+        Script-DbContext            Generates a SQL script from the DbContext. Bypasses any migrations.
+
+        Script-Migration            Generates a SQL script from migrations.
+
+        Update-Database             Updates the database to a specified migration.
+
+Scaffold-DbContext "Server=DESKTOP-BKMO0M7;Database=AdventureWorksLT2019;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
